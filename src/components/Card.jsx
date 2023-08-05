@@ -11,8 +11,6 @@ export const Card = ({ name, url }) => {
         setType(response.data.types)
     })
 
-    console.log(type)
-
     return (
         <div className='pokemon-card'>
             <div className='pokemon-name'>
